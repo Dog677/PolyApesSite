@@ -1,0 +1,46 @@
+.mintbtn {
+    text-align: center;
+    color: #fff;
+    border-radius: 25px;    
+    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100%);
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -70%;
+    outline:none;
+    cursor: pointer;
+}
+.mintbody {
+    background-color: #6c3cb4;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    display: flex;
+    width: 100%;
+}
+.mintimage {
+    margin-left: 36rem;
+}
+.mintnft {
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nftinfo {
+    color: #fff;
+    margin: auto;
+    margin-left: -14rem;
+    margin-top: 3rem;
+}
+.amount {
+    margin-top: 10px;
+}
+.mintbtn:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #6568f4;
+    transition: 250ms;
+    outline:none;
+}

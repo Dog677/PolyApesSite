@@ -1,0 +1,52 @@
+.footer {
+    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10%;
+}
+.fa-twitter {
+    color: #fff;
+    text-decoration: none;
+
+}
+.fa-telegram-plane{
+    color: #fff;
+    text-decoration: none;
+}
+.fa-discord {
+color: #fff;
+text-decoration: none;
+
+}
+.fa-dollar-sign {
+color: #fff;
+text-decoration: none;
+
+}
+.fa-twitter:hover {
+    background-color: #6d76f7;
+    border-radius: 20px;
+    transition: all 0.2 ease-out;
+
+}
+.fa-telegram-plane:hover{
+    background-color: #6d76f7;
+    border-radius: 20px;
+    transition: all 0.2 ease-out;
+}
+.fa-discord:hover {
+background-color: #6d76f7;
+border-radius: 20px;
+transition: all 0.2 ease-out;
+
+}
+.fa-dollar-sign:hover {
+background-color: #6d76f7;
+border-radius: 20px;
+transition: all 0.2 ease-out;
+}
