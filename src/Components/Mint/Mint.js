@@ -90,9 +90,9 @@ ethereum.request({  method: 'eth_sendTransaction',  params: [transactionParamete
           <li>Amount minted : {this.state.amount}/1000</li>
           <li>Random Distrubtion (random ape on purchase)</li>
           <li>Max of 9 NFTs at a time</li>
-          <input id='get' className='amount' placeholder='Amount of nfts'></input>
-        </ul>
+          <li><input id='get' className='amount' placeholder='Amount of nfts'></input></li>
         <button onClick={this.purchase} className="mintbtn"> Mint</button>
+        </ul>
       </div>
     );
   }
