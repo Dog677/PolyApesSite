@@ -27,7 +27,7 @@ async getTotalSupply () {
   )
     
   const maticWeb3 = new Web3(maticProvider);
-  const myContractInstance = new maticWeb3.eth.Contract(ContractAbi, '0x32E28Ef078469340CfC2989280e56498FF4C7762');
+  const myContractInstance = new maticWeb3.eth.Contract(ContractAbi, '0xDba706c13BA8c67529d65C2A979Aa918e286F5e5');
   
   
   const result = await myContractInstance.methods.totalSupply().call()

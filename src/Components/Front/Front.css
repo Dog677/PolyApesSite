@@ -59,7 +59,7 @@
 .row2 {
     display: inline-flex;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1900px) {
 
     .img2 {
         display: none;
