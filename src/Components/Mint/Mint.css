@@ -44,7 +44,7 @@
     transition: 250ms;
     outline:none;
 }
-@media (max-width: 1280px) {
+@media (max-width: 960px) {
 
     .mintimage {
         margin-left: 20rem;
